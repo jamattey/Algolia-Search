@@ -1,12 +1,20 @@
 {
-    "name": "searchproject",
-    "version": "1.0.0",
-    "description": "Smart search form with Algolia",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: No test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "James Amattey",
-    "license": "MIT"
+  "name": "searchproject",
+  "version": "1.0.0",
+  "description": "Smart search form with Algolia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: No test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "James Amattey",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamattey/Algolia-Search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamattey/Algolia-Search/issues"
+  },
+  "homepage": "https://github.com/jamattey/Algolia-Search#readme"
 }
