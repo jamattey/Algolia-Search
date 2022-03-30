@@ -5,5 +5,11 @@
     </head>
     <body>
         <h1>My Algolia Search Project</h1>
+        <!--Initialized the algolia client-->
+        <script type="module">
+            import algoliasearch from 'https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch.esm.browser.js';
+
+            const client = algoliasearch ( 'APP_ID', 'API_SEARCH_KEY');
+        </script>
     </body>
 </html>
