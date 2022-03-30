@@ -8,8 +8,11 @@
         <!--Initialized the algolia client-->
         <script type="module">
             import algoliasearch from 'https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch.esm.browser.js';
-
-            const client = algoliasearch ( 'APP_ID', 'API_SEARCH_KEY');
+            const client = algoliasearch ( 'WX6U30KWY0', 'beab434bbff7ca31f52e5024036179e');
+            const index = client.initIndex ('billionaires');
+            indes.search ('bill').then (({hits}) => {
+                console.log (hits);
+            });
         </script>
     </body>
 </html>
