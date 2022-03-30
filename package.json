@@ -1,0 +1,12 @@
+{
+    "name": "searchproject",
+    "version": "1.0.0",
+    "description": "Smart search form with Algolia",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: No test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "James Amattey",
+    "license": "MIT",
+}
