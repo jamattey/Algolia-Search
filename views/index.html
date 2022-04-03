@@ -2,17 +2,22 @@
 <html lang="en" lang="en">
     <head>
         <title>My Algolia Search Project</title>
+        <link rel="stylesheet" href="/views/style.css">
     </head>
     <body>
-        <h1>My Algolia Search Project</h1>
+        <div class="container">
+            <div class="search-container">
+                <label for="search-input" class="label-container">Find A Billionaire</label>
+                <p>Powered by Algolia<a href="http://algolia.com"p>
+            </div>
+            <input type="text" autofocus="true" name="search" id="search-input" placeholder="Search for a billionaire" />
+        </div>
+
+        <div class="hits-container">
+            <div id = "hits" class="hits">
+                <p class="hits-placeholder">Start Typing To See Results</p>
+            </div>
+        </div>
         <!--Initialized the algolia client-->
-        <script type="module">
-            import algoliasearch from 'https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch.esm.browser.js';
-            const client = algoliasearch ( 'WX6U30KWY0', 'beab434bbff7ca31f52e5024036179e');
-            const index = client.initIndex ('billionaires');
-            indes.search ('bill').then (({hits}) => {
-                console.log (hits);
-            });
-        </script>
     </body>
 </html>
