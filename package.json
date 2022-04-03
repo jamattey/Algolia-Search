@@ -8,6 +8,16 @@
   },
   "keywords": [],
   "author": "James Amattey",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamattey/Algolia-Search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamattey/Algolia-Search/issues"
+  },
+  "homepage": "https://github.com/jamattey/Algolia-Search#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
-  
